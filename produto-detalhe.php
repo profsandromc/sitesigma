@@ -8,7 +8,7 @@ include_once './includes/_header.php';
 $id = $_GET['id'];
 $tipo = $_GET['tipo'];
 ?>
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col">
             <h1><?php echo $produtos[$id]['nome'];?></h1>
